@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Home</title>
+    <link rel="stylesheet" href="style.css">
+        <!-- Lobster font  -->
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar & Home -->
+    <section class="main">
+        <nav class="navbar">
+            <div class="logo">HomeGlow</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="home-content">
+            <section id="home">
+                <h1 class="h-primary">"Transform Your Home with Expert Renovation!"</h1>
+            </section>
+        </div>
+    </section>
+
+      <!-- Consultation Services -->
+      <div class="container">
+        <div class="image-container">
+            <img src="Images/Box1.jpg" alt="Meeting Image">
+        </div>
+        <div class="consultation-box">
+            <div class="consultation-card">
+                <div>
+                    <strong>FREE ONLINE CONSULTATION</strong>
+                    <p>1 hour</p>
+                    <p>Free online design consultation with an experienced architect.</p>
+                </div>
+                <button class="book-btn">BOOK</button>
+            </div>
+            <div class="consultation-card">
+                <div>
+                    <strong>CONSULTATION AT FA&D MEETING ROOMS</strong>
+                    <p>1 hour</p>
+                    <p>Please call 07931736139 to arrange.</p>
+                </div>
+                <button class="book-btn">BOOK</button>
+            </div>
+            <div class="consultation-card">
+                <div>
+                    <strong>CONSULTATION AT PROPERTY</strong>
+                    <p>2 hours @ £120.00</p>
+                    <p>On location design consultation appointments are for any properties within 20 miles of Lytham. Please email if you would like to arrange a visit further away.</p>
+                </div>
+                <button class="book-btn">BOOK</button>
+            </div>
+        </div>
+    </div>
+
+     <!-- Gallery -->
+     <h1>Revolutionizing Homes with Stunning Designs & Luxury Renovations</h1>
+    <div class="gallery">
+        <img src="Images/Gallery1.jpeg" alt="Gallery Image 1">
+        <img src="Images/Gallery2.jpg" alt="Gallery Image 2">
+        <img src="Images/Gallery3.jpg" alt="Gallery Image 3">
+        <img src="Images/Gallery4.png" alt="Gallery Image 4">
+        <img src="Images/Gallery5.jpg" alt="Gallery Image 5">
+        <img src="Images/Gallery6.jpg" alt="Gallery Image 6">
+        <img src="Images/Gallery7.jpg" alt="">
+        <img src="Images/Gallery8.jpg" alt="">
+        <img src="Images/Gallery9.jpg" alt="">
+    </div>
+
+     <!-- Box -->
+     <h1>Upgrade Your Home , One Small Changes at a Time!</h1>
+     <div class="container">
+         <div class="box"><img src="Images/Box2.jpg" alt="Image 1"></div>
+         <div class="box"><img src="Images/Box3.jpg" alt="Image 2"></div>
+         <div class="box"><img src="Images/Box4.jpg" alt="Image 3"></div>
+         <div class="box"><img src="Images/Box5.jpg" alt="Image 4"></div>
+         <div class="box"><img src="Images/Box6.jpg" alt="Image 5"></div>
+         <div class="box"><img src="Images/Box7.jpg" alt="Image 3"></div>
+         
+     </div>
+
+     <!-- Services -->
+      <h1>Expert Home Renovations to Give Your Space a Fresh New Look</h1>
+     <div class="container">
+        <div class="circle">
+            <img src="Images/Service1.png" alt="Image 1">
+        </div>
+        <div class="circle">
+            <img src="Images/Service2.png" alt="Image 2">
+        </div>
+         <div class="circle">
+            <img src="Images/Service3.png" alt="Image 3">
+        </div>
+        <div class="circle">
+            <img src="Images/Service4.png" alt="Image 4">
+        </div>
+        <div class="circle">
+            <img src="Images/Service5.png" alt="Image 4">
+        </div>
+    </div>
+
+        <!-- Footer -->
+    <div class="footer-bottom">
+        © 2025 HomeGlow All Rights Reserved | <a href="#">Privacy Policy</a>
+    </div>
+
+    <!-- JavaScript Code -->
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById("navLinks");
+            var body = document.body;
+            nav.classList.toggle("active");
+            body.classList.toggle("menu-open"); 
+        }
+    </script>
+</body>
+</html>
